@@ -18,6 +18,7 @@ import (
 	"xteve/internal/hdhr"
 	"xteve/internal/ssdp"
 	"xteve/internal/storage"
+	"xteve/internal/ui"
 	"xteve/internal/xepg"
 )
 
@@ -123,7 +124,5 @@ func defaultConfigDir() string {
 }
 
 func serveUI() http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		http.Error(w, "UI not embedded — run 'cd web && npm run build' first", http.StatusServiceUnavailable)
-	})
+	return ui.Handler()
 }
