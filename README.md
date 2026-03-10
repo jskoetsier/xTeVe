@@ -1,3 +1,6 @@
+<div align="center">
+    <img src="xteve2.png" alt="xTeVe" />
+</div>
 <div align="center" style="background-color: #111; padding: 100;">
     <a href="https://github.com/xteve-project/xTeVe"><img width="880" height="200" src="html/img/logo_b_880x200.jpg" alt="xTeVe" /></a>
 </div>
