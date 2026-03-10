@@ -7,4 +7,5 @@ files
 update_xteve*.sh
 /xteve
 /xteve.exe
-de.json
+de.jsonweb/dist/
+web/node_modules/
